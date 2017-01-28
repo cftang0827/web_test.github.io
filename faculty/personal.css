@@ -1,0 +1,492 @@
+@media only screen and (min-width:100px) {
+
+  p#teacherName{
+    position: relative;
+    /*left: 3%;*/
+    font-size: 23px;
+    font-family: 微軟正黑體;
+  }
+
+  div#teacherInfo{
+    font-size: 14px;
+    position: relative;
+    /*left: 5%;*/
+    font-family: 微軟正黑體;
+  }  
+
+  img#teacherImg{
+    width: 80%;
+    position: relative;
+    left: 5%;
+    /*right: 15%;*/
+  }
+  
+  img#teacherImg_sychang {
+	width: 80%;
+	position: relative;
+	left: 3%;
+  
+  } 
+  div#teacherInfo{
+    font-size: 13%;
+    position: relative;
+    left: 5%;
+    font-family: 微軟正黑體;
+  }  
+
+
+  
+  div#personalRow3{
+    background-color: #DCDCDC;
+    width:95%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;  
+ 
+  }  
+	 div#paper{
+		font-size: 90%;
+	}      
+
+	b#paperTitle{
+		font-size: 120%;
+		font-family: 微軟正黑體;
+		position: relative;
+		left: 1%;
+	}
+
+	p#paperContent{
+		font-size: 90%;
+		font-family: 微軟正黑體;
+
+	} 
+	
+    nav#navBar1{
+    /*padding-left:200px;*/
+    width: 95%;
+    margin: auto;
+    background-color: #DCDCDC;
+    position:relative;
+    top:15px;
+    border-radius: 10px;
+    border: 10px;
+    font-color: black;
+  }  	
+  
+} 
+
+@media only screen and (min-width:400px) {
+
+    nav#navBar1{
+    /*padding-left:200px;*/
+    width: 95%;
+    margin: auto;
+    background-color: #DCDCDC;
+    position:relative;
+    top:15px;
+    border-radius: 10px;
+    border: 10px;
+    font-color: black;
+  }
+
+
+  div#personalRow3{
+    background-color: #DCDCDC;
+    width:95%;
+    margin:auto;
+    position:relative;
+    top:15px;
+    border-radius:10px;  
+ 
+  }  
+
+  p#teacherName{
+    position: relative;
+    left: 3%;
+    font-size: 23px;
+    font-family: 微軟正黑體;
+  }
+
+  div#teacherInfo{
+    font-size: 100%;
+    position: relative;
+    left: 5%;
+    font-family: 微軟正黑體;
+  }  
+
+  img#teacherImg{
+    width: 120%;
+    position: relative;
+    left: 20%;
+    /*right: 15%;*/
+  }
+  img#teacherImg_sychang {
+	width: 110%;
+	position: relative;
+	left: 13%;
+  
+  }   
+  
+  div#personalRow3{
+    background-color: #DCDCDC;
+    width:95%;
+    margin:auto;
+    position:relative;
+    top:20px;
+    border-radius:10px;  
+ 
+  }
+
+	div#personalRow4{
+		background-color: #DCDCDC;
+		width:95%;
+		margin:auto;
+		position:relative;
+		top:40px;
+		border-radius:10px;  
+
+	}      
+	img#teacherImg{
+	  width:40%;
+	  position: relative;
+	  left: 20%;
+	}  
+	div#paper{
+		font-size: 90%;
+	}      
+
+	b#paperTitle{
+		font-size: 124%;
+		font-family: 微軟正黑體;
+		position: relative;
+		left: 1%;
+	}
+
+	p#paperContent{
+		font-size: 95%;
+		font-family: 微軟正黑體;
+
+	}	
+  
+}
+
+@media only screen and (min-width:768px) {
+
+    nav#navBar1{
+    /*padding-left:200px;*/
+    width: 90%;
+    margin: auto;
+    background-color: #DCDCDC;
+    position:relative;
+    top:15px;
+    border-radius: 10px;
+    border: 10px;
+    font-color: black;
+  }
+
+  p#teacherName{
+    position: relative;
+    left: 20%;
+    font-size: 35px;
+    font-family: 微軟正黑體;
+  }
+
+  div#teacherInfo{
+    font-size: 100%;
+    position: relative;
+    left: 20%;
+    font-family: 微軟正黑體;
+  }
+
+  div#personalRow3{
+    background-color: #DCDCDC;
+    width:90%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;  
+ 
+  }
+ 
+  div#personalRow4{
+    background-color: #DCDCDC;
+    width:90%;
+    margin:auto;
+    position:relative;
+    top:55px;
+    border-radius:10px;  
+ 
+  }      
+img#teacherImg{
+  width:50%;
+  position: relative;
+  left: 20%;
+}  
+
+div#paper{
+	font-size: 95%;
+}      
+
+b#paperTitle{
+	font-size: 125%;
+	font-family: 微軟正黑體;
+	position: relative;
+	left: 1%;
+}
+
+p#paperContent{
+	font-size: 100%;
+	font-family: 微軟正黑體;
+
+}
+
+}
+
+@media only screen and (min-width:992px) {
+
+  p#teacherName{
+    position: relative;
+    left: 16%;
+    font-size: 25px;
+    font-family: 微軟正黑體;
+  }
+
+  div#teacherInfo{
+    font-size: 100%;
+    position: relative;
+    left: 16%;
+    font-family: 微軟正黑體;
+  }  
+
+  div#personalRow3{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;  
+ 
+  }    
+
+  div#personalRow4{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:55px;
+    border-radius:10px;  
+ 
+  }
+
+img#teacherImg{
+  width: 90%;
+  left: 18%;
+}   
+
+div#paper{
+	font-size: 90%;
+}      
+
+b#paperTitle{
+	font-size: 125%;
+	font-family: 微軟正黑體;
+	position: relative;
+	left: 1%;
+}
+
+p#paperContent{
+	font-size: 90%;
+	font-family: 微軟正黑體;
+
+}
+
+    nav#navBar1{
+    /*padding-left:200px;*/
+    width: 85%;
+    margin: auto;
+    background-color: #DCDCDC;
+    position:relative;
+    top:15px;
+    border-radius: 10px;
+    border: 10px;
+    font-color: black;
+  }
+
+}
+
+@media only screen and (min-width:1200px) {
+}
+
+
+
+
+@media only screen and (min-width:1800px) {
+
+  a#item{
+    padding-top: 60px;
+    
+    color: black;
+  }
+  nav#navBar1{
+    /*padding-left:200px;*/
+    width: 70%;
+    margin: auto;
+    background-color: #DCDCDC;
+    position:relative;
+    top:15px;
+    border-radius: 10px;
+    border: 10px;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+
+      width: 100%;
+      margin: auto;
+      /*height: 300px;*/
+      background-color: white;
+      border-radius: 10px;
+
+
+
+  }
+
+  .container#car1{
+    position:relative;
+    top:35px;
+    width: 70%;
+    
+    background-color: #DCDCDC;
+    border-radius: 10px;
+  }
+
+
+
+  div#row3{
+    background-color: #DCDCDC;
+    width:70%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;
+
+  }
+
+
+
+
+
+  ul#barItem{
+    width: 100%;
+    /*left: 50%;*/
+    
+  }  
+
+
+  li#barItem1{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem2{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem3{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem4{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  } 
+  li#barItem5{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem6{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem7{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem8{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+    li#barItem9{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+
+  div#personalRow3{
+    background-color: #DCDCDC;
+    width:70%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;  
+ 
+  }    
+
+  div#personalRow4{
+    background-color: #DCDCDC;
+    width:70%;
+    margin:auto;
+    position:relative;
+    top:55px;
+    border-radius:10px;  
+ 
+  }      
+    div#row3_faculty{
+
+    background-color: #DCDCDC;
+    width:70%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;
+    
+  }
+     div#historyRow3{
+    background-color: #DCDCDC;
+    width:70%;
+    margin:auto;
+    position:relative;
+    top:15px;
+    border-radius:10px;  
+ 
+  }  
+  
+  img#teacherImg_sychang {
+	width: 80%;
+	position: relative;
+	left: 15%;
+  
+  } 
+  img#teacherImg{
+	width: 80%;
+	position: relative;
+	left: 15%;
+  
+  }   
+}

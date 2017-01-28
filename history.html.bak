@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>國立台灣大學醫學院--醫學檢驗暨生物技術學系</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./ie-emulation-modes-warning.js"></script>
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- [if lt IE 9]> -->
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!-- <![endif]> -->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link href = "./history.css" rel = "stylesheet">
+    <!-- maxCDN -->
+    <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+	<script type="text/javascript" src="./jquery.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function(){
+            $("li#barItem1").click(function(){
+                $("li").removeClass("active");
+                $("li#barItem1").addClass("active");
+            });
+            $("li#barItem2").click(function(){
+                $("li").removeClass("active");
+                $("li#barItem2").addClass("active");
+            });         
+            $("li#barItem3").click(function(){
+                $("li").removeClass("active");
+                $("li#barItem3").addClass("active");
+            });
+            $("li#barItem4").click(function(){
+                $("li").removeClass("active");
+                $("li#barItem4").addClass("active");
+            }); 
+            $("li#barItem5").click(function(){
+                $("li").removeClass("active");
+                $("li#barItem5").addClass("active");
+            }); 
+            $("li#barItem6").click(function(){
+                $("li").removeClass("active");
+                $("li#barItem6").addClass("active");
+            }); 
+            $("li#barItem7").click(function(){
+                $("li").removeClass("active");
+                $("li#barItem7").addClass("active");
+            }); 
+            $("li#barItem8").click(function(){
+                $("li").removeClass("active");
+                $("li#barItem8").addClass("active");
+            });                                                 
+        });     
+
+
+     
+        $(document).ready(function (){
+            $("#click1").click(function (){
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 500);
+            });
+        });
+
+        $(document).ready(function (){
+            $("#click2").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#historyTitle").offset().top
+                }, 500);
+            });
+        });
+
+   		
+
+
+
+    </script>
+	   
+  </head>
+
+<body>
+    
+
+    <nav id = "navBar1" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+        <div class="navbar-header">
+          
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            
+            <img  id = "logo" src="logo4.png">                  
+        </div>
+        
+        <div class="collapse navbar-collapse" id = "myNavbar">
+          <ul class="nav navbar-nav " id = "barItem">
+
+            <li id = "barItem1" ><a  href="./index.html" data-toggle="collapse" data-target="#myNavbar.in"><b>回首頁</b></a></li>
+            <li id = "barItem2"><a  href="./history.html" data-toggle="collapse" data-target="#myNavbar.in"><b>關於醫技系</b></a></li>
+            <li id = "barItem3"><a href="http://ntumt404news.blogspot.tw/" data-toggle="collapse" data-target="#myNavbar.in"><b>最新消息</b></a></li> 
+            <li id = "barItem4"><a href="./faculty.html" data-toggle="collapse" data-target="#myNavbar.in"><b>教職員工</b></a></li> 
+            <li id = "barItem5"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>招生專區</b></a></li> 
+            <li id = "barItem6"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>學生</b></a></li> 
+            <li id = "barItem7"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>系友</b></a></li> 
+            <li id = "barItem8"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>共同儀器</b></a></li> 
+            <li id = "barItem9"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b> 常用表單</b></a></li> 
+
+
+          </ul>
+        </div>
+
+        <!-- <br> -->
+      </div>
+    </nav>
+    
+    <br>
+        <div class = "row" id = "historyRow3">
+            <div class = "col-md-3">          
+
+				<div class="collapse navbar-collapse" id = "left_bar">
+					 <button type="button" class="btn btn-lg btn-default" id = "click1">&nbsp;&nbsp;&nbsp;教育目標&nbsp;&nbsp;&nbsp;</button>
+					 <button type="button" class="btn btn-lg btn-default" id = "click2">&nbsp;&nbsp;&nbsp;系所簡史&nbsp;&nbsp;&nbsp;</button>
+				</div>			
+			</div>
+            <div class = "col-md-8" >
+                <br>
+                <p id = "historyTitle"><b>Mission教育目標</b></p>
+                <hr >
+                <p>
+
+				<b>教育理念</b><br><br>
+				本系所設立宗旨為「培育醫檢英才，創新生技研發」。早期設系之目的為培育醫檢專業人才以服務社會。近期亦培育具創新研發之生技人才以配合生技產業發展之需求。
+					本系學士班、碩士班及博士班秉承台灣大學整體教育目標「培育具備健全品格，堅實學問，社會關懷與全球視野的社會中堅及領導人才，以增進國家與人類福社」，並配合醫學檢驗暨生物技術學門之專業發展需求，分別訂定學士班、碩士班及博士班之教育目標如下:
+				</p><br>
+
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">學士班:</h3>
+            </div>
+            <div class="panel-body">
+                1.培育具全方位醫檢專業人才<br>
+                2.培育具多元思考醫學生物技術專業人才
+
+            </div>
+          </div>     
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">碩士班:</h3>
+            </div>
+            <div class="panel-body">
+                1.培育高階醫檢專業人才<br>
+                2.培育具多元思考之醫學研究人才<br>
+                3.培育具研究及實務潛能之醫學生技人才<br>
+				4.blablabla
+
+
+            </div>
+          </div>       
+
+
+            <div class = "col-md-1"></div>
+        </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./ie10-viewport-bug-workaround.js"></script>
+    <script src="./docs.min.js"></script>
+
+</body>
+

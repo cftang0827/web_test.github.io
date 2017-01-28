@@ -1,0 +1,1041 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+@media (max-width: 900px) {
+        .navbar-header {
+            float: none;
+        }
+        .navbar-left,.navbar-right {
+            float: none !important;
+        }
+        .navbar-toggle {
+
+            margin-right: 10%;
+            margin-top:2%;
+
+            display: block;
+        }
+        .navbar-collapse {
+            /*border-top: 1px ;*/
+            border-top-width: 60%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            display: block;
+
+
+            /*box-shadow: inset 0 1px 0 rgba(255,255,255,1);*/
+        }
+
+        .navbar-fixed-top {
+        
+
+        border-width: 0 0 1px;
+      }
+        .navbar-collapse.collapse {
+            display: none!important;
+            /*margin-top: 200px;*/
+        }
+        .navbar-nav {
+
+          float: none!important;
+          margin-top: 7.5px;
+          
+      }
+
+      .navbar-nav>li {
+            float: none;
+            display: block;
+
+
+        }
+        .navbar-nav>li>a {
+            padding-top: 5px;
+            padding-bottom: 10px;
+            padding-right: 200px;
+
+
+        }
+
+        .collapse.in{
+
+          display:block !important;
+      }
+    div#left_bar{
+    display: none;
+    visibility:hidden;
+    } 
+
+    
+    
+
+  }
+
+
+
+
+@media only screen and (min-width:200px) {
+
+nav#navBar1{
+  position: relative;
+  top:auto;
+  margin: auto;
+  width: 95%;
+  border-radius: 10px;
+  background-color: #DCDCDC;
+}
+
+img#logo{
+  height: 70px;
+  position: relative;
+  left: 5px;
+}
+
+a#item{
+  color: black;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 130%;    
+    margin: auto;
+    /*height: 100%;*/
+    position:relative;
+    top:auto;
+}
+
+.carousel-caption{
+    font-size:30%;
+    border-radius: 10px;
+
+}
+
+h2#webtext1{
+  font-size: 50%;
+}
+
+.container#car1{ 
+  position: relative;
+  top: 10px;
+  background-color: #DCDCDC;
+  border-radius: 10px;
+  width: 95%;
+}
+body{
+   background-color:  #DCDCDC;
+   overflow-x: hidden;
+}
+
+
+  div#row3{
+    /*background-color:#DCDCDC;*/
+    background-color: #DCDCDC;
+
+    margin:auto;
+    position:relative;
+    top:15px;
+    width: 95%;
+    border-radius:10px;
+    
+  }
+  div#row3_1{
+    /*background-color:#DCDCDC;*/
+    background-color: #DCDCDC;
+
+    margin:auto;
+    position:relative;
+    top:25px;
+    width: 95%;
+    border-radius:10px;
+    
+  }  
+  div#row3_2{
+    /*background-color:#DCDCDC;*/
+    background-color: #DCDCDC;
+
+    margin:auto;
+    position:relative;
+    top:35px;
+    width: 95%;
+    border-radius:10px;
+    
+  }    
+
+img#colImage1{
+    
+    width: 70%;
+    left: 15%;
+    right: 15%;
+    border-radius: 10px;
+    margin: auto;
+    position:relative;
+    background-color:#D2B48C;
+  }
+
+img#colImage2{
+    width: 70%;
+    left: 15%;
+    right: 15%; 
+     
+    margin:auto;
+    position:relative;
+    border-radius: 10px;
+    background-color:#87CEFA;
+  }
+
+img#colImage3{
+    width: 70%;
+    left: 15%;
+    right: 15%;
+ 
+  margin:auto;
+  position:relative;
+  border-radius: 10px;
+  background-color:#90EE90;
+}
+
+  img#colImage4{
+    width: 70%;
+    left: 15%;
+    right: 15%;
+
+  margin:auto;
+  position:relative;
+  border-radius: 10px;
+  background-color:#90EE90;
+}  
+
+div#colPara{
+  width: 90%;
+  left: 5%;
+  right: 5%;  
+  margin:auto;
+  position:relative;
+  text-align: center;
+  left:0%;
+  right: 0%;    
+
+}
+
+h1#row3Title{
+  position:relative;
+  left:10px;
+  font-family:微軟正黑體;
+  font-size:16px;
+}
+
+
+  ul#barItem{
+    position: relative;
+    /*left: 20%;*/
+    width: 120%;
+  }
+
+
+  li#barItem1{
+    position: relative;
+    top: 5px;
+    font-size: 70%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem2{
+    position: relative;
+    top: 5px;
+    font-size: 70%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem3{
+    position: relative;
+    top: 5px;
+    font-size: 70%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem4{
+    position: relative;
+    top: 5px;
+    font-size: 70%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem5{
+    position: relative;
+    top: 5px;
+    font-size: 70%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem6{
+    position: relative;
+    top: 5px;
+    font-size: 70%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem7{
+    position: relative;
+    top: 5px;
+    font-size: 70%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem8{
+    position: relative;
+    top: 5px;
+    font-size: 70%;
+    font-family: 微軟正黑體;
+  }   
+    li#barItem9{
+    position: relative;
+    top: 5px;
+    font-size: 70%;
+    font-family: 微軟正黑體;
+  }   
+  div#left_bar{
+    display: none;
+    visibility:hidden;
+  }    
+
+
+
+
+  div#row3_faculty{
+    background-color: #DCDCDC;
+  font-size: 98%;
+    margin:auto;
+    position:relative;
+    width: 95%;
+    top:15px;
+    border-radius:10px;    
+
+  }
+
+
+
+
+
+
+}
+@media only screen and (min-width:768px) {
+
+
+
+
+
+  img#logo{
+    height: 115px;
+    position: relative;
+    left:20px;
+
+
+  }
+  a#item{
+    padding-top: 60px;
+    
+    color: black;
+  }
+  nav#navBar1{
+    /*padding-left:200px;*/
+    width: 90%;
+    margin: auto;
+    background-color: #DCDCDC;
+    position:relative;
+    top:15px;
+    border-radius: 10px;
+    border: 10px;
+    font-color: black;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+
+      width: 100%;
+      margin: auto;
+      /*height: 300px;*/
+      background-color: white;
+      border-radius: 10px;
+
+
+
+  }
+
+  .container#car1{
+    position:relative;
+    top:35px;
+    width: 90%;
+    
+    background-color: #DCDCDC;
+    border-radius: 10px;
+  }
+
+  h2#webtext1{
+  font-size: 30px;
+}
+
+  body{
+    background-color:   #2F4F4F;
+/*    background-image: url("back.jpg");
+    background-repeat: repeat-x;*/
+    overflow-x: hidden;
+  }
+
+  a#item{
+    font-size: 20px;
+    font-family: 微軟正黑體;
+  }
+
+/*  iframe#rss{
+    position: relative;
+    right: 20px;
+  }*/
+
+
+  div#row3{
+    background-color: #DCDCDC;
+    width:90%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;
+
+  }
+    div#row3_1{
+    background-color: #DCDCDC;
+    width:90%;
+    margin:auto;
+    position:relative;
+    top:50px;
+    border-radius:10px;
+
+  }
+
+    div#row3_2{
+    background-color: #DCDCDC;
+    width:90%;
+    margin:auto;
+    position:relative;
+    top:65px;
+    border-radius:10px;
+
+  }
+
+  div#row4{
+    background-color: #DCDCDC;
+    width: 65%;
+    position: relative;
+    /*margin: 35px 27.5%;*/
+    border-radius:10px;
+  }
+
+  img#colImage1{
+    width: 80%;
+    margin: auto;
+    position:relative;
+    left:10%;
+    right: 10%;
+    border-radius: 10px;
+    background-color:#D2B48C;
+  }
+
+    img#colImage2{
+    width: 80%;
+    margin:auto;
+    position:relative;
+    left:10%;
+    right: 10%; 
+    border-radius: 10px;   
+    background-color:#87CEFA;
+  }
+
+    img#colImage3{
+    width: 80%;
+    margin:auto;
+    position:relative;
+    text-align: center;
+    left:10%;
+    right: 10%; 
+    border-radius: 10px;   
+    background-color:#90EE90;
+  }
+
+    img#colImage4{
+    width: 80%;
+    margin:auto;
+    position:relative;
+    text-align: center;
+    left:10%;
+    right:10%;
+    border-radius: 10px;
+    background-color:#90EE90;
+  }  
+
+  p#colPara{
+    width: 100%;
+    margin:auto;
+    position:relative;
+    text-align: center;
+    left:0%;
+    right: 0%;    
+
+  }
+
+  h1#row3Title{
+    position:relative;
+    left:15px;
+    font-family:微軟正黑體;
+    font-size:25px;
+  }
+
+  ul#barItem{
+    position: relative;
+    /*left: 20%;*/
+    width: 120%;
+
+  }
+
+  li#barItem1{
+    position: relative;
+    /*top: 60px;*/
+    color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem2{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem3{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem4{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  } 
+  li#barItem5{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem6{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem7{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem8{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem9{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }  
+
+/* 
+  div#left_bar{
+    position:fixed;
+    text-align: center;
+    top:250px;
+    border-radius: 30px;
+    width: 150px;
+  }  */
+  
+  div#left_bar{
+    display: none;
+    visibility:hidden;
+  }
+  button#click1{
+  display: none;
+    visibility:hidden;  
+  }
+  button#click2{
+  display: none;
+    visibility:hidden;  
+  }  
+  button#click3{
+  display: none;
+    visibility:hidden;  
+  }     
+
+
+  div#row3_faculty{
+
+    background-color: #DCDCDC;
+    width:90%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;
+    
+  }
+
+
+
+
+
+
+  }
+
+
+
+
+@media only screen and (min-width:992px) {
+
+
+
+  img#logo{
+    height: 115px;
+
+
+  }
+  a#item{
+    padding-top: 60px;
+    
+    color: black;
+  }
+  nav#navBar1{
+    /*padding-left:200px;*/
+    width: 85%;
+    margin: auto;
+    background-color: #DCDCDC;
+    position:relative;
+    top:15px;
+    border-radius: 10px;
+    border: 10px;
+    font-color: black;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+
+      width: 100%;
+      margin: auto;
+      /*height: 300px;*/
+      background-color: white;
+      border-radius: 10px;
+
+
+
+  }
+
+  .container#car1{
+    position:relative;
+    top:35px;
+    width: 85%;
+    
+    background-color: #DCDCDC;
+    border-radius: 10px;
+  }
+
+  h2#webtext1{
+  font-size: 30px;
+}
+
+  body{
+    background-color:   #2F4F4F;
+/*    background-image: url("back.jpg");
+    background-repeat: repeat-y;*/
+    overflow-x: hidden;
+  }
+
+  a#item{
+    font-size: 20px;
+    font-family: 微軟正黑體;
+  }
+
+/*  iframe#rss{
+    position: relative;
+    right: 20px;
+  }*/
+
+
+  div#row3{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;
+
+  }
+  div#row3_1{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:50px;
+    border-radius:10px;
+
+  }
+
+  div#row3_2{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:65px;
+    border-radius:10px;
+
+  }  
+
+  div#row4{
+    background-color: #DCDCDC;
+    width: 65%;
+    position: relative;
+    /*margin: 35px 27.5%;*/
+    border-radius:10px;
+  }
+
+  img#colImage1{
+    width: 80%;
+    margin: auto;
+    position:relative;
+    left:10%;
+    right: 10%;
+    border-radius: 10px;
+    background-color:#D2B48C;
+  }
+
+    img#colImage2{
+    width: 80%;
+    margin:auto;
+    position:relative;
+    left:10%;
+    right: 10%; 
+    border-radius: 10px;   
+    background-color:#87CEFA;
+  }
+
+    img#colImage3{
+    width: 80%;
+    margin:auto;
+    position:relative;
+    text-align: center;
+    left:10%;
+    right: 10%; 
+    border-radius: 10px;   
+    background-color:#90EE90;
+  }
+
+    img#colImage4{
+    width: 80%;
+    margin:auto;
+    position:relative;
+    text-align: center;
+    left:10%;
+    right:10%;
+    border-radius: 10px;
+    background-color:#90EE90;
+  }  
+
+  p#colPara{
+    width: 100%;
+    margin:auto;
+    position:relative;
+    text-align: center;
+    left:0%;
+    right: 0%;    
+
+  }
+
+  h1#row3Title{
+    position:relative;
+    left:15px;
+    font-family:微軟正黑體;
+    font-size:25px;
+  }
+
+  ul#barItem{
+    position: relative;
+    /*left: 20%;*/
+    width: 120%;
+
+  }
+
+  li#barItem1{
+    position: relative;
+    /*top: 60px;*/
+    color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem2{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem3{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem4{
+    position: relative;
+    /*top: 60px;*/
+    font-color: red;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  } 
+  li#barItem5{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem6{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem7{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem8{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem9{
+    position: relative;
+    /*top: 60px;*/
+    font-color: black;
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+
+
+  div#left_bar{
+    position:fixed;
+    text-align: center;
+    top:250px;
+    border-radius: 30px;
+    width: 200px;
+  }
+  button#click1{
+  display: none;
+    visibility:hidden;  
+  }
+  button#click2{
+  display: none;
+    visibility:hidden;  
+  }  
+  button#click3{
+  display: none;
+    visibility:hidden;  
+  }     
+
+
+
+  div#row3_faculty{
+
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;
+    
+  }
+
+ 
+            
+
+
+}
+
+@media only screen and (min-width:1800px) {
+
+
+
+  a#item{
+    padding-top: 60px;
+    
+    color: black;
+  }
+  nav#navBar1{
+    /*padding-left:200px;*/
+    width: 70%;
+    margin: auto;
+    background-color: #DCDCDC;
+    position:relative;
+    top:15px;
+    border-radius: 10px;
+    border: 10px;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+
+      width: 100%;
+      margin: auto;
+      /*height: 300px;*/
+      background-color: white;
+      border-radius: 10px;
+
+
+
+  }
+
+  .container#car1{
+    position:relative;
+    top:35px;
+    width: 70%;
+    
+    background-color: #DCDCDC;
+    border-radius: 10px;
+  }
+
+
+
+  div#row3{
+    background-color: #DCDCDC;
+    width:70%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;
+
+  }
+
+  div#row3_1{
+    background-color: #DCDCDC;
+    width:70%;
+    margin:auto;
+    position:relative;
+    top:60px;
+    border-radius:10px;
+
+  }
+  div#row3_2
+  {
+    background-color: #DCDCDC;
+    width:70%;
+    margin:auto;
+    position:relative;
+    top:85px;
+    border-radius:10px;
+
+  }  
+
+
+
+  ul#barItem{
+    width: 100%;
+    /*left: 50%;*/
+    
+  }  
+
+
+  li#barItem1{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem2{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem3{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+  li#barItem4{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  } 
+  li#barItem5{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem6{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem7{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }    
+  li#barItem8{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+    li#barItem9{
+    position: relative;
+    /*top: 60px;*/
+    font-size: 110%;
+    font-family: 微軟正黑體;
+  }
+
+  div#personalRow3{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;  
+ 
+  }    
+
+  div#personalRow4{
+    background-color: #DCDCDC;
+    width:85%;
+    margin:auto;
+    position:relative;
+    top:55px;
+    border-radius:10px;  
+ 
+  }      
+    div#row3_faculty{
+
+    background-color: #DCDCDC;
+    width:70%;
+    margin:auto;
+    position:relative;
+    top:35px;
+    border-radius:10px;
+    
+  }
+
+  }    

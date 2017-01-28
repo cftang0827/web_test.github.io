@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>湯智帆 碩士生</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./ie-emulation-modes-warning.js"></script>
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link href="personal.css" rel="stylesheet">
+    <!-- maxCDN -->
+    <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+
+
+
+    
+  </head>
+
+
+
+<body>
+    
+
+    <nav id = "navBar1" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+        <div class="navbar-header">
+          
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            
+            <img  id = "logo" src="logo4.png">                  
+        </div>
+        
+        <div class="collapse navbar-collapse" id = "myNavbar">
+          <ul class="nav navbar-nav " id = "barItem">
+
+            <li id = "barItem1" ><a  href="./index.html" data-toggle="collapse" data-target="#myNavbar.in"><b>回首頁</b></a></li>
+            <li id = "barItem2"><a href="./history.html" data-toggle="collapse" data-target="#myNavbar.in"><b>關於醫技系</b></a></li>
+            <li id = "barItem3"><a href="http://ntumt404news.blogspot.tw/" data-toggle="collapse" data-target="#myNavbar.in"><b>最新消息</b></a></li> 
+            <li id = "barItem4"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>教職員工</b></a></li> 
+            <li id = "barItem5"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>招生專區</b></a></li> 
+            <li id = "barItem6"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>學生</b></a></li> 
+            <li id = "barItem7"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>系友</b></a></li> 
+            <li id = "barItem8"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>共同儀器</b></a></li> 
+ 
+          </ul>
+        </div>
+        <!-- <br> -->
+      </div>
+    </nav>
+
+
+    <div class = "row" id = "personalRow3">
+        <div class = "col-md-4 ">
+            <br>
+            <img id = "teacherImg" src="test.jpg" class="img-rounded" alt="Cinque Terre" >
+            <br>
+            <br>
+        </div>                  
+        <div  class = "col-md-8 ">
+            <br>
+            <p id = "teacherName"><b>湯智帆 碩士班學生  Chih-Fan Tang</b></p>
+            <div id = "teacherInfo">
+                <b>學歷: </b>國立台灣大學醫學院醫學檢驗暨生物技術學系 理學士<br>
+                <b>目前就讀: </b>國立台灣大學電機資訊學院生醫電子與資訊學研究所<br>
+                <b>工作經驗: </b><br>
+                <ul>
+                    <li> 1. 國立台灣大學醫學院附設醫院檢驗醫學部實習生 </li>
+                    <li> 2. 國立台灣大學電機工程學系 電子電路實驗助教(在職中)</li>
+                    <li> 3. 拉拉拉 </li>
+                </ul>
+                <b>聯絡方式: </b>
+                <ul>
+                    <li> E-mail: <a href = "mailto:b00404017@ntu.edu.tw">b00404017@ntu.edu.tw </a></li>
+            </div>
+        </div>    
+
+    <br><br>
+
+    </div>
+
+    <div class="row" id = "personalRow4">
+        <div class="col-md-1"></div>
+        <div class="col-md-10" id = "paper">
+            <b id = "paperTitle"> 論文發表</b>
+            <p id = "paperContent">
+[1] A. A. Anisimov and A. Ananyeva, “Development of 6 ystem for 1 oninvasive & uffless ( stimation of Blood Pressure,” 2014.<br>
+[2] J.-P. Baguet, B. A. Kingwell, A. L. Dart, J. Shaw, K. E. Ferrier, and G. L. Jennings, “Analysis of the regional pulse wave velocity by Doppler: methodology and reproducibility,” J. Hum. Hypertens., vol. 17, no. 6, pp. 407–412, 2003.<br>
+[3] N. Barié, U. Stahl, and M. Rapp, “Vacuum-deposited wave-guiding layers on STW resonators based on LiTaO(3) substrate as love wave sensors for chemical and biochemical sensing in liquids.,” Ultrasonics, vol. 50, no. 6, pp. 606–12, 2010.<br>
+[4] B. M. Barraclough and B. H. Barraclough, “Ultrasound of the Thyroid and Parathyroid Glands,” World J. Surg, vol. 24, pp. 158–165, 2000.<br>
+[5] A. Benetos, S. Laurent, A. P. Hoeks, P. H. Boutouyrie, and M. E. Safar, “Arterial alterations with aging and high blood pressure. A noninvasive study of carotid and femoral arteries.,” Arterioscler. Thromb., vol. 13, no. 1, pp. 90–97, 1993.<br>
+[6] B. W. a M. M. Beulen, N. Bijnens, G. G. Koutsouridis, P. J. Brands, M. C. M. Rutten, and F. N. van de Vosse, “Toward noninvasive blood pressure assessment in arteries by using ultrasound.,” Ultrasound Med. Biol., vol. 37, no. 5, pp. 788–97, 2011.<br>
+[7] B. W. a M. M. Beulen, N. Bijnens, G. G. Koutsouridis, P. J. Brands, M. C. M. Rutten, and F. N. van de Vosse, “Toward noninvasive blood pressure assessment in arteries by using ultrasound.,” Ultrasound Med. Biol., vol. 37, no. 5, pp. 788–97, 2011.<br>
+[8] B. Beulen, A. C. Verkaik, N. Bijnens, M. Rutten, and F. Van De Vosse, “Perpendicular ultrasound velocity measurement by 2D cross correlation of RF data. Part B: Volume flow estimation in curved vessels,” Exp. Fluids, vol. 49, no. 6, pp. 1219–1229, 2010.<br>
+[9] B. Beulen, A. C. Verkaik, N. Bijnens, M. Rutten, and F. Van De Vosse, “Perpendicular ultrasound velocity measurement by 2D cross correlation of RF data. Part B: Volume flow estimation in curved vessels,” Exp. Fluids, vol. 49, no. 6, pp. 1219–1229, 2010.<br>
+[10]    P. J. Brands, a. P. G. Hoeks, L. a F. Ledoux, and R. S. Reneman, “A radio <br>            
+        </div>
+        <div class="col-md-1>"></div>
+    </div>    
+
+
+
+
+
+
+
+            
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./ie10-viewport-bug-workaround.js"></script>
+    <script src="./docs.min.js"></script>
+</body>
+</html>

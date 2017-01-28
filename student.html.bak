@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>國立台灣大學醫學院--醫學檢驗暨生物技術學系</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./ie-emulation-modes-warning.js"></script>
+    
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- [if lt IE 9]> -->
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!-- <![endif]> -->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link href = "./history.css" rel = "stylesheet">
+    <!-- maxCDN -->
+    <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+	<script type="text/javascript" src="./jquery.min.js"></script>
+
+
+
+    <script>
+   
+
+
+     
+        $(document).ready(function (){
+            $("#click1").click(function (){
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 500);
+            });
+        });
+
+        $(document).ready(function (){
+            $("#click2").click(function (){
+                $('html, body').animate({
+                    scrollTop: $("#test").offset().top
+                }, 500);
+            });
+        });
+
+   		
+
+
+
+    </script>
+	   
+  </head>
+
+<body>
+    
+
+    <nav id = "navBar1" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+        <div class="navbar-header">
+          
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>                        
+            </button>
+            
+            <img  id = "logo" src="logo4.png">                  
+        </div>
+        
+        <div class="collapse navbar-collapse" id = "myNavbar">
+          <ul class="nav navbar-nav " id = "barItem">
+
+            <li id = "barItem1" ><a  href="./index.html" data-toggle="collapse" data-target="#myNavbar.in"><b>回首頁</b></a></li>
+            <li id = "barItem2"><a  href="./history.html" data-toggle="collapse" data-target="#myNavbar.in"><b>關於醫技系</b></a></li>
+            <li id = "barItem3"><a href="http://ntumt404news.blogspot.tw/" data-toggle="collapse" data-target="#myNavbar.in"><b>最新消息</b></a></li> 
+            <li id = "barItem4"><a href="./faculty.html" data-toggle="collapse" data-target="#myNavbar.in"><b>教職員工</b></a></li> 
+            <li id = "barItem5"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>招生專區</b></a></li> 
+            <li id = "barItem6"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>學生</b></a></li> 
+            <li id = "barItem7"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>系友</b></a></li> 
+            <li id = "barItem8"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b>共同儀器</b></a></li> 
+            <li id = "barItem9"><a href="#" data-toggle="collapse" data-target="#myNavbar.in"><b> 常用表單</b></a></li> 
+
+
+          </ul>
+        </div>
+
+        <!-- <br> -->
+      </div>
+    </nav>
+    
+    <br>
+        <div class = "row" id = "historyRow3">
+            <div class = "col-md-3">          
+
+				<div class="collapse navbar-collapse" id = "left_bar">
+					 <button type="button" class="btn btn-lg btn-default" id = "click1">&nbsp;&nbsp;&nbsp;&nbsp;大學部&nbsp;&nbsp;&nbsp;</button>
+					 <button type="button" class="btn btn-lg btn-default" id = "click2">&nbsp;&nbsp;&nbsp;碩士班&nbsp;&nbsp;&nbsp;</button>
+					 <button type="button" class="btn btn-lg btn-default" id = "click3">&nbsp;&nbsp;&nbsp;博士班&nbsp;&nbsp;&nbsp;</button>
+				</div>			
+			</div>
+            <div class = "col-md-8" >
+                <br>
+                <h2 id = "historyTitle"><b>Undergraduate student 大學部</b></h2>
+				<hr >
+                
+                <p>
+
+				<h3><b>課程地圖(學分規劃,擋修規定,畢業門檻)</b></h3>
+				本系學士班應依規定完成修習校訂共同必修科目、通識教育、及系定必修學分; 並於修業年限內最低應修習134學分可取得畢業資格。本系專業科目訂有擋修規定，必須先修基礎專業科目及格後方得選課修習。
+				</p>
+				
+				<h4><b>本系大學部必修課程學分及系訂必修學分列表</b></h4>
+				<h4>A.大學部必修課程學分</h4>
+				<table class="table table-striped">
+					<thead>
+						<tr>
+						<th>共同必修科目</th>
+						<th>通識教育</th>
+						<th>系訂必修學分</th>
+						<th>畢業應修最低學分數</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+						<td>12</td>
+						<td>18</td>
+						<td>104</td>
+						<td>134</td>
+						<tr>
+				</table>
+				<p>	
+					<sub>1.共同必修科目: 含國文6、外文6、服務課（一）（二）（三）(應必修，但0學分)、體育應必修4學分，但不計入畢業總學分數內。</sub><br>
+					<sub>2.通識教育學分: 通識教育選課詳見臺大通識<a href="https://coursemap.aca.ntu.edu.tw/course_map/index.php">課程地圖</a>&nbsp;&nbsp;通識超修部份，可列為本系畢業學分。</sub><br>
+					<sub>3.畢業應修最低學分數=共同必修學分（12）＋通識教育學分（18）＋系訂必修學分 (104)</sub>
+				</p>
+					<br>				
+				<p>
+					<a data-toggle="modal" data-target="#myModal"><img src="./course_map.png"  style="width:100%;"></a>
+				</p><br>
+				<!-- modal -->
+					  <div class="modal fade" id="myModal" role="dialog">
+						<div class="modal-dialog modal-lg">
+						
+						  <!-- Modal content-->
+						  <div class="modal-content">
+							<div> <img src="./course_map.png"  style="width:100%;"> </div>
+							<div class="modal-footer">
+							  <button type="button" class="btn btn-default" data-dismiss="modal">關閉</button>
+							</div>
+						  </div>
+						  
+						</div>
+					  </div>				
+				
+				<h4>B.系訂必修學分列表</h4>
+				<p>
+					<a>104之後入學</a><br>
+					<a>101-103入學</a>
+				</p><br>
+				<h4>C.國立台灣大學醫學院醫學檢驗暨生物技術學系擋修辦法</h4>				
+				<p>
+					<a>國立台灣大學醫學院醫學檢驗暨生物技術學系擋修辦法.pdf</a>
+				</p>	<br>
+				<h3><b>獎助學金(學士班)：</b></h3>
+				<h4>A.本系特色獎學金:</h4>
+				<div id = "test">
+					<p><a> 美國杜克基金獎學金 </a>，在<a href="http://bosa.mc.ntu.edu.tw/zh_tw/life/link12/Scholarships">醫學校區獎助學金專區</a>可以提出申請</p>
+					<p><a href="http://www.mc.ntu.edu.tw/department/clsmb/students_scholarship_thesisaward.html">臺大醫學院醫學檢驗暨生物技術學系所學生學術論文獎</a></p>
+					<p><a href="http://www.mc.ntu.edu.tw/department/clsmb/students_scholarship_thesissupport.html">台大醫學院醫學檢驗暨生物技術學系所補助學生發表學術論文</a></p>
+				</div>
+				<h4>B.醫學校區獎助學金:</h4>
+  
+            <div class = "col-md-1"></div>
+        </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./ie10-viewport-bug-workaround.js"></script>
+    <script src="./docs.min.js"></script>
+
+</body>
+
